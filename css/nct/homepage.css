@@ -1,0 +1,121 @@
+
+body {
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.homepage-hero-container {
+
+}
+
+
+.hero-image {
+  height: 275px;
+}
+
+.hero-image:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 60px;
+    left: 0;
+    background-color: rgba(0,136,106,1);
+    -webkit-transform: skewY(-3deg);
+    transform: skewY(-3deg);
+    bottom: -30px;
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+}
+
+@media (min-width: 768px) { 
+	.homepage-hero-container {
+		//min-height: 70vh;
+	}
+
+	.hero-image {
+		height: auto;
+	}
+
+	.hero-image:after {
+	    content: "";
+	    position: absolute;
+	    display: block;
+	    top: 0;
+	    width: 60px;
+	    height: 100%;
+	    left: -30px;
+	    background-color: rgba(0,136,106,1);
+	    -webkit-transform: skewX(-3deg);
+	    transform: skewX(-3deg);
+
+	    -webkit-transform-origin: 50%;
+	    transform-origin: 50%;
+	}
+
+}
+
+
+
+
+.navbar-brand {
+   font-family: "Raleway", san-serif;
+}
+
+
+.nav-item {
+   margin-bottom: 0;
+}
+
+.nav-link {
+   font-family: "Raleway", san-serif;
+}
+
+
+h1 {
+   color: inherit;
+}
+
+
+
+
+
+span.article-type-tag {
+	font-size: 0.8rem;
+    padding: 2px 5px;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    top: 2px;
+}
+
+span.article-type-tag.video {
+	background: #17a2b8;
+}
+
+span.article-type-tag.article {
+	background: #dc3545;
+}
+
+span.article-save-later {
+	position: absolute;
+	right: 15px;
+	top: 0;
+	margin-left: 5px;
+}
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { }

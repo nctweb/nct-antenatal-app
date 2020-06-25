@@ -1,7 +1,4 @@
 
-body {
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-}
 
 /* .homepage-hero-container {
 
@@ -63,20 +60,44 @@ body {
 
 .nav-item {
    margin-bottom: 0;
+   margin-left: 5px;
+   margin-right: 5px;
 }
 
 .nav-link {
    font-family: "Raleway", san-serif;
+   font-size: 0.85em;
+   font-weight: 500;
+   color: rgba(0,0,0,0.8) !important;
 }
 
+
+.reading-list-header {
+	font-size: 1.3em;
+}
+
+.reading-list-badge {
+	font-size: 0.6em;
+	position: relative;
+	top: -15px;
+	left: -15px;
+}
 
 h1 {
    color: inherit;
 }
 
+.breadcrumb-item {
+	font-size: 0.8em;
+}
 
+.topic-quicklinks {
+	font-size: 13px;
+}
 
-
+.topic-quicklinks .divider {
+	margin: 0px 5px;
+}
 
 span.article-type-tag {
 	font-size: 0.8rem;
@@ -103,12 +124,12 @@ span.article-type-tag.activity {
 	background: #f5a029;
 }
 
-span.article-save-later {
+span.article-listing-save-later {
 	position: absolute;
 	right: 15px;
 	top: 0;
 	margin-left: 5px;
-	font-size: 0.75em;
+	font-size: 1em;
 }
 
 

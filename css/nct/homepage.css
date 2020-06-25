@@ -96,11 +96,20 @@ span.article-type-tag.article {
 	background: #dc3545;
 }
 
+span.article-type-tag.external {
+	background: #85477e;
+}
+
+span.article-type-tag.activity {
+	background: #f5a029;
+}
+
 span.article-save-later {
 	position: absolute;
 	right: 15px;
 	top: 0;
 	margin-left: 5px;
+	font-size: 0.75em;
 }
 
 

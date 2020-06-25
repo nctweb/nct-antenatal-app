@@ -3,9 +3,9 @@ body {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
-.homepage-hero-container {
+/* .homepage-hero-container {
 
-}
+} */
 
 
 .hero-image {
@@ -28,9 +28,8 @@ body {
 }
 
 @media (min-width: 768px) { 
-	.homepage-hero-container {
-		//min-height: 70vh;
-	}
+	/* .homepage-hero-container {
+	} */
 
 	.hero-image {
 		height: auto;
@@ -114,7 +113,7 @@ span.article-save-later {
 
 
 
-// Extra small devices (portrait phones, less than 576px)
+/* Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
@@ -127,4 +126,4 @@ span.article-save-later {
 @media (min-width: 992px) { }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) { }  */

@@ -41,49 +41,43 @@
 
     <header class="nct-main-header-container section--header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="img/social-logo.png" height="30" class="d-inline-block align-top mr-2" alt="NCT">
-                Antenatal course
+                Parenting Hub
             </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="ml-auto nct-yellow-text reading-list-header">
-            <i class="fas fa-star"></i>
-            <span class="badge badge-danger reading-list-badge">4</span>
+            <a href="saved-list.html">
+                <i class="fas fa-book-open"></i>
+                <span class="badge badge-danger reading-list-badge">4</span>
+            </a>
         </div>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">
-                    Your course
-                </a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Additional resources
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Special offers</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Special offers</a>
-            </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="before-your-course.html">Before your course</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="course-topics.html">Course topics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">After your course</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="special-offers.html">Special offers</a>
+                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0 ">
+            <form class="form-inline my-2 my-lg-0 d-none">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
             </form>
-            
 
+ 
         </div>
-
         </nav>
 
     </header>
@@ -117,7 +111,7 @@
         
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample"> 
                     <div class="row">
-                        <div class="media col-12 col-md-6 my-2">
+                        <div class="media col-12 col-lg-6 my-2">
                             <div class="media-image mr-3"  style="width: 33%;" >
                                 <a href="#!" class="video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/J_ki_LmJP74" data-target="#myModal">
                                     <span class="article-type-tag video">Video</span>
@@ -125,11 +119,14 @@
                                 </a>
                             </div>
                             <div class="media-body align-self-center pr-3">
-                                <span class="article-listing-save-later">
-                                    <a href="#!" class="nct-yellow-text" data-toggle="tooltip" data-placement="left" title="Save for later"><i class="far fa-star"></i></a>
-                                </span>
+                                
                                 <h6 class="my-0 article-title">How much and how often should I feed my baby?</h6>
-                                <p class="text-secondary my-0"><small>5 minutes viewing | <a href="#!" class="video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/J_ki_LmJP74" data-target="#myModal">Watch video</a></small></p>
+                                <p class="text-secondary mt-0"><small>5 minutes viewing | <a href="#!" class="video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/J_ki_LmJP74" data-target="#myModal">Watch video</a></small></p>
+                                <p class="font-small">
+                                    <span class="badge badge-pill badge-light text-secondary mx-2"><i class="fas fa-eye mr-2"></i> Viewed</span>
+                                    <a href="#" class="badge badge-light text-secondary mx-2"><i class="fas fa-book-open mr-2"></i> Save for later</a>
+
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -147,7 +144,7 @@
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                     <div class="row">
-                        <div class="media col-12 col-md-6 my-2 ">
+                        <div class="media col-12 col-lg-6 my-2 ">
                             <div class="media-image mr-3"  style="width: 33%;" >
                                 <a href="article.html">
                                     <span class="article-type-tag article">Article</span>
@@ -160,10 +157,13 @@
                                 </span>
                                 <h6 class="my-0 article-title">What is the fourth trimester?</h6>
                                 <p class="text-secondary my-0"><small>5 minutes read time | <a href="article.html">Read article</a></small></p>
+                                <span class="badge badge-pill badge-light text-secondary"><i class="fas fa-eye"></i> Viewed</span>
+                                <a href="#" class="badge badge-light text-secondary mx-2"><i class="fas fa-check mr-2"></i> Saved <span class="text-light-grey"><i class="fas fa-times ml-2"></i></span></a>
+
                             </div>
                         </div>
         
-                        <div class="media col-12 col-md-6 my-2">
+                        <div class="media col-12 col-lg-6 my-2">
                             <span class="article-type-tag video">Video</span>
                             <img class="mr-3 img-fluid align-self-center " style="width: 33%;"  src="https://placedog.net/302/300" alt="Generic placeholder image" />
                             <div class="media-body align-self-center pr-3">
@@ -176,7 +176,7 @@
                         </div>
         
         
-                        <div class="media col-12 col-md-6 my-2">
+                        <div class="media col-12 col-lg-6 my-2">
                             <span class="article-type-tag video">Video</span>
                             <img class="mr-3 img-fluid align-self-center " style="width: 33%;"  src="https://placedog.net/303/300" alt="Generic placeholder image" />
                             <div class="media-body align-self-center pr-3">
@@ -185,6 +185,8 @@
                                 </span>
                                 <h6 class="my-0 article-title">Tips from parents and NCT</h6>
                                 <p class="text-secondary my-0"><small>5 minutes viewing | <a href="#!">Watch video</a></small></p>
+                                <span class="badge badge-pill badge-light text-secondary"><i class="fas fa-eye"></i> Viewed</span>
+
                             </div>
                         </div>
                     </div>
@@ -202,7 +204,7 @@
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                 <div class="row">
-                        <div class="media col-12 col-md-6 my-2 ">
+                        <div class="media col-12 col-lg-6 my-2 ">
                             <span class="article-type-tag activity">Activity</span>
                             <img class="mr-3 img-fluid align-self-center " style="width: 33%;" src="https://placedog.net/304/300" alt="Generic placeholder image" />
                             <div class="media-body align-self-center pr-3">
@@ -214,7 +216,7 @@
                             </div>
                         </div>
         
-                        <div class="media col-12 col-md-6 my-2 ">
+                        <div class="media col-12 col-lg-6 my-2 ">
                             <span class="article-type-tag article">Article</span>
                             <img class="mr-3 img-fluid align-self-center " style="width: 33%;" src="https://placedog.net/305/300" alt="Generic placeholder image" />
                             <div class="media-body align-self-center pr-3">
@@ -227,7 +229,7 @@
                         </div>
         
         
-                        <div class="media col-12 col-md-6 my-2 ">
+                        <div class="media col-12 col-lg-6 my-2 ">
                             <span class="article-type-tag article">Article</span>
                             <img class="mr-3 img-fluid align-self-center " style="width: 33%;" src="https://placedog.net/306/300" alt="Generic placeholder image" />
                             <div class="media-body align-self-center pr-3">
@@ -239,7 +241,7 @@
                             </div>
                         </div>
         
-                        <div class="media col-12 col-md-6 my-2 ">
+                        <div class="media col-12 col-lg-6 my-2 ">
                             <span class="article-type-tag article">Article</span>
                             <img class="mr-3 img-fluid align-self-center " style="width: 33%;" src="https://placedog.net/307/300" alt="Generic placeholder image" />
                             <div class="media-body align-self-center pr-3">
@@ -251,7 +253,7 @@
                             </div>
                         </div>
         
-                        <div class="media col-12 col-md-6 my-2 ">
+                        <div class="media col-12 col-lg-6 my-2 ">
                             <span class="article-type-tag article">Article</span>
                             <img class="mr-3 img-fluid align-self-center " style="width: 33%;" src="https://placedog.net/308/300" alt="Generic placeholder image" />
                             <div class="media-body align-self-center pr-3">
@@ -263,7 +265,7 @@
                             </div>
                         </div>
         
-                        <div class="media col-12 col-md-6 my-2 ">
+                        <div class="media col-12 col-lg-6 my-2 ">
                             <span class="article-type-tag article">Article</span>
                             <img class="mr-3 img-fluid align-self-center " style="width: 33%;" src="https://placedog.net/309/300" alt="Generic placeholder image" />
                             <div class="media-body align-self-center pr-3">
@@ -275,7 +277,7 @@
                             </div>
                         </div>
         
-                        <div class="media col-12 col-md-6 my-2 ">
+                        <div class="media col-12 col-lg-6 my-2 ">
                             <span class="article-type-tag article">Article</span>
                             <img class="mr-3 img-fluid align-self-center " style="width: 33%;" src="https://placedog.net/310/300" alt="Generic placeholder image" />
                             <div class="media-body align-self-center pr-3">
@@ -287,7 +289,7 @@
                             </div>
                         </div>
         
-                        <div class="media col-12 col-md-6 my-2 ">
+                        <div class="media col-12 col-lg-6 my-2 ">
                             <span class="article-type-tag article">Article</span>
                             <img class="mr-3 img-fluid align-self-center " style="width: 33%;" src="https://placedog.net/311/300" alt="Generic placeholder image" />
                             <div class="media-body align-self-center pr-3">
@@ -299,7 +301,7 @@
                             </div>
                         </div>
         
-                        <div class="media col-12 col-md-6 my-2 ">
+                        <div class="media col-12 col-lg-6 my-2 ">
                             <span class="article-type-tag external">Non-NCT</span>
                             <img class="mr-3 img-fluid align-self-center " style="width: 33%;" src="https://placedog.net/312/300" alt="Generic placeholder image" />
                             <div class="media-body align-self-center pr-3">
@@ -311,7 +313,7 @@
                             </div>
                         </div>
         
-                        <div class="media col-12 col-md-6 my-2 ">
+                        <div class="media col-12 col-lg-6 my-2 ">
                             <span class="article-type-tag external">Non-NCT</span>
                             <img class="mr-3 img-fluid align-self-center " style="width: 33%;" src="https://placedog.net/313/300" alt="Generic placeholder image" />
                             <div class="media-body align-self-center pr-3">
@@ -338,7 +340,7 @@
         
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample"> 
                     <div class="row">
-                        <div class="media col-12 col-md-6 my-2">
+                        <div class="media col-12 col-lg-6 my-2">
                             <div class="media-image mr-3"  style="width: 33%;" >
                                 <a href="#!" class="video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/J_ki_LmJP74" data-target="#myModal">
                                     <span class="article-type-tag video">Video</span>
@@ -369,7 +371,7 @@
         
                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample"> 
                     <div class="row">
-                        <div class="media col-12 col-md-6 my-2">
+                        <div class="media col-12 col-lg-6 my-2">
                             <div class="media-image mr-3"  style="width: 33%;" >
                                 <a href="#!" class="video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/J_ki_LmJP74" data-target="#myModal">
                                     <span class="article-type-tag video">Video</span>

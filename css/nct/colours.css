@@ -69,3 +69,7 @@ Colours
 .text-black { color: #000000 !important; }
 
 .text-white { color: #ffffff !important; }
+
+.text-light-grey {
+	color: #d4cfcf !important;
+}

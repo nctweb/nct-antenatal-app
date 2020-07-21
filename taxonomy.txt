@@ -47,3 +47,24 @@ Actions/events
     Add to watch/reading list
     Video playlist?
     
+
+    userDetails: {
+        dueDate: '',
+        postcode: '',
+        gpsCoordinates: [       //convert postcode to GPS Coordinates ?
+            lat: '',
+            lng: ''
+        ]
+    },
+    articles: {
+        savedArticles: [
+            {
+                id:
+            },
+        ],
+        viewedArtices: [
+            {
+
+            }
+        ]
+    }
